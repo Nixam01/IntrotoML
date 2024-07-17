@@ -15,6 +15,8 @@ Y
 
 X_1 = np.append(X, Y, axis=1)
 
+X_2 = np.append(X, Y, axis=1)
+
 w = np.random.rand(6)
 
 def predict (x, w):
