@@ -4,7 +4,7 @@ Created on Wed Aug  7 19:35:52 2024
 
 @author: marcin
 """
-
+import pandas as pd
 import numpy as np
  
 X = np.arange(-25, 25, 1).reshape(10,5)
@@ -20,3 +20,4 @@ def predict(x, w):
     total_stimulation = np.dot(x, w)       
     y_pred = 1 if total_stimulation > 0 else -1
     return y_pred
+
